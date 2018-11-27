@@ -1,25 +1,23 @@
-# README
+# Fruits
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails CRUD app with React Frontend, using ‘react-rails’ gem.
 
-Things you may want to cover:
+Motivation for this project is to help me learn how to integrate React & Rails.
 
-* Ruby version
+Following [this](https://medium.com/quick-code/simple-rails-crud-app-with-react-frontend-using-react-rails-gem-b708b89a9419) tutorial.
 
-* System dependencies
+## Getting started
 
-* Configuration
+### To set up the project
 
-* Database creation
+1. clone repo to your local machine `git clone https://github.com/MHUS25/fruits-app.git`
+2. Run the command `gem install bundle` (if you don't have bundle already)
+3. When the installation completes, `run bundle`
 
-* Database initialization
+### To set up the database
 
-* How to run the test suite
+`rake db:setup`
 
-* Services (job queues, cache servers, search engines, etc.)
+### To run the app
 
-* Deployment instructions
-
-* ...
-# fruits-app
+`rails server` and visit www.localhost:3000 in your browser.
